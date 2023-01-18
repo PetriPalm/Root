@@ -2,9 +2,30 @@ body{
 background-color: blanchedalmond;
 margin: 20px;
 font-family: Arial, Helvetica, sans-serif;
-
+}
+.main{
+    display: flex;
+}
+.sidebar{
+    display: flex;
+    min-width: 100px;
+    max-width: 100px;
+    
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.flexContainer{
+    display: flex;
+    background-color: azure;
+}
+.flexGrowContainer{
+    display: flex;
+    align-items: stretch;
+    background-color: bisque;
+}
 p{
 color: black;
 font-size: larger;
