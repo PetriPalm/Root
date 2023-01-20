@@ -12,6 +12,9 @@ font-family: Arial, Helvetica, sans-serif;
     max-width: 100px;
     
 }
+.header{
+    background-color: rgb(89, 135, 21);
+}
 section{
     display: flex;
     flex-wrap: wrap;
@@ -64,3 +67,6 @@ a:visited{
 a:hover{
     color: blue;
 }
+.footer{height: 70px;
+text-align: center;}
+.colo{background-color: aqua;}
